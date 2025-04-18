@@ -35,6 +35,21 @@ const Header = () => (
           <p className='p-text'>Web Developer</p>
           <p className='p-text'>Freelancer</p>
         </div>
+
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+          className='cv-btn app__flex'
+        >
+          <a
+            href='/CV-Vo_Bao_Long.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='cv-link'
+          >
+            View My CV
+          </a>
+        </motion.div>
       </div>
     </motion.div>
 

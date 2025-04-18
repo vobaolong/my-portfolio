@@ -194,3 +194,23 @@
 		margin: 2rem 0;
 	}
 }
+
+.cv-btn {
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	border-radius: 10px;
+	background-color: var(--secondary-color);
+	cursor: pointer;
+
+	.cv-link {
+		color: var(--white-color);
+		font-weight: 600;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	&:hover {
+		box-shadow: 0 0 25px var(--secondary-color);
+	}
+}
